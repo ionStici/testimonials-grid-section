@@ -1,0 +1,220 @@
+.tt {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 26px 32px 32px 32px;
+  border-radius: 8px;
+  position: relative;
+
+  &:not(:last-child) {
+    margin-bottom: 24px;
+  }
+
+  &__profile-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+
+    div {
+    }
+  }
+
+  &__photo {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-right: 17px;
+  }
+
+  &__name {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    margin-bottom: 4px;
+  }
+
+  &__status {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 11px;
+  }
+
+  &__heading {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+
+  &__testimonial {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
+
+.quotes {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 24px;
+}
+
+// 1
+
+.dc {
+  .tt {
+    &__profile-wrapper {
+      div {
+        color: #fff;
+        position: relative;
+        z-index: 2;
+      }
+    }
+
+    &__photo {
+      border: 2px solid #a775f1;
+    }
+
+    &__name {
+    }
+
+    &__status {
+      opacity: 0.5;
+    }
+
+    &__heading {
+      color: #ffffff;
+      margin-bottom: 40px;
+      position: relative;
+      z-index: 2;
+    }
+
+    &__testimonial {
+      color: #cfcfcf;
+      opacity: 0.7;
+      padding-right: 16px;
+    }
+  }
+}
+
+// 2
+
+.jw {
+  .tt {
+    &__profile-wrapper {
+      div {
+        color: #fff;
+      }
+    }
+
+    &__photo {
+    }
+
+    &__name {
+    }
+
+    &__status {
+      opacity: 0.5;
+    }
+
+    &__heading {
+      color: #ffffff;
+    }
+
+    &__testimonial {
+      color: #ffffff;
+      opacity: 0.7;
+    }
+  }
+}
+
+// 3
+
+.jh {
+  .tt {
+    &__profile-wrapper {
+      div {
+      }
+    }
+
+    &__photo {
+    }
+
+    &__name {
+    }
+
+    &__status {
+    }
+
+    &__heading {
+      color: #48556a;
+    }
+
+    &__testimonial {
+      color: #48556a;
+      opacity: 0.7;
+    }
+  }
+}
+
+// 4
+
+.pa {
+  .tt {
+    &__profile-wrapper {
+      div {
+        color: #fff;
+      }
+    }
+
+    &__photo {
+    }
+
+    &__name {
+    }
+
+    &__status {
+      opacity: 0.5;
+    }
+
+    &__heading {
+      color: #ecf2f8;
+    }
+
+    &__testimonial {
+      color: #ffffff;
+      opacity: 0.7;
+    }
+  }
+}
+
+// 5
+
+.kw {
+  .tt {
+    &__profile-wrapper {
+      div {
+      }
+    }
+
+    &__photo {
+    }
+
+    &__name {
+    }
+
+    &__status {
+    }
+
+    &__heading {
+      color: #48556a;
+    }
+
+    &__testimonial {
+      color: #48556a;
+      opacity: 0.7;
+    }
+  }
+}
+
+//
