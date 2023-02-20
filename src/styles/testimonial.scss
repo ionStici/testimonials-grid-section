@@ -4,6 +4,12 @@
   padding: 26px 32px 32px 32px;
   border-radius: 8px;
   position: relative;
+  box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+
+  @media only screen and (min-width: 1150px) {
+    max-width: revert;
+    height: 100%;
+  }
 
   &:not(:last-child) {
     margin-bottom: 24px;
@@ -57,11 +63,19 @@
   z-index: 1;
   top: 0;
   right: 24px;
+
+  @media only screen and (min-width: 1150px) {
+    margin-right: 80px;
+  }
 }
 
 // 1
 
 .dc {
+  @media only screen and (min-width: 1150px) {
+    grid-column: 1 / 3;
+  }
+
   .tt {
     &__profile-wrapper {
       div {
@@ -87,6 +101,10 @@
       margin-bottom: 40px;
       position: relative;
       z-index: 2;
+
+      @media only screen and (min-width: 1150px) {
+        margin-bottom: 16px;
+      }
     }
 
     &__testimonial {
@@ -148,6 +166,10 @@
 
     &__heading {
       color: #48556a;
+
+      @media only screen and (min-width: 1150px) {
+        margin-bottom: 24px;
+      }
     }
 
     &__testimonial {
@@ -160,6 +182,10 @@
 // 4
 
 .pa {
+  @media only screen and (min-width: 1150px) {
+    grid-column: 2 / 4;
+  }
+
   .tt {
     &__profile-wrapper {
       div {
@@ -179,6 +205,10 @@
 
     &__heading {
       color: #ecf2f8;
+
+      @media only screen and (min-width: 1150px) {
+        margin-bottom: 24px;
+      }
     }
 
     &__testimonial {
@@ -191,6 +221,11 @@
 // 5
 
 .kw {
+  @media only screen and (min-width: 1150px) {
+    grid-column: 4 / -1;
+    grid-row: 1 / -1;
+  }
+
   .tt {
     &__profile-wrapper {
       div {
@@ -208,6 +243,10 @@
 
     &__heading {
       color: #48556a;
+
+      @media only screen and (min-width: 1150px) {
+        margin-bottom: 24px;
+      }
     }
 
     &__testimonial {
