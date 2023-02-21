@@ -13,6 +13,10 @@
 
   &:not(:last-child) {
     margin-bottom: 24px;
+
+    @media only screen and (min-width: 1150px) {
+      margin-bottom: 0;
+    }
   }
 
   &__profile-wrapper {
