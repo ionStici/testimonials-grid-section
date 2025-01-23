@@ -1,29 +1,39 @@
-# Testimonials grid section solution
+# Testimonials Grid Section
 
-This is a solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7).
+This is a solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-<!-- ### Primary
+## About the Project
 
-Moderate violet: hsl(263, 55%, 52%)
-Very dark grayish blue: hsl(217, 19%, 35%)
-Very dark blackish blue: hsl(219, 29%, 14%)
-White: hsl(0, 0%, 100%)
+This project is a simple yet elegant display of testimonials arranged in a grid layout. Built using React, this project focuses on showcasing a responsive design with CSS and Scss, without any additional interactivity. It was an opportunity to practice creating structured, visually appealing layouts using React components.
 
-### Neutral
+## Preview and Links
 
-Light gray: hsl(0, 0%, 81%)
-Light grayish blue: hsl(210, 46%, 95%)
+<details>
+<summary><b>Open Preview</b></summary>
+<br>
 
-Note for text colors:
+![](./preview.png)
 
-1. "Verified Graduate" has the same color as the person's name with 50% opacity
-2. Review paragraphs inside the quotations have the same color as well, but are at 70% opacity
+<br>
+</details>
 
-### Body Copy
+| View it live: | [Live Demo URL](https://ionstici.github.io/testimonials-grid-section) | [Frontend Mentor](https://www.frontendmentor.io/solutions/testimonials-section-DTZ8Kz8fYt) |
+| ------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 
-- Font size: 13px
+## Features
 
-### Font
+- **Grid Layout:** Testimonials are displayed in a responsive grid, adapting to different screen sizes.
+- **Responsive Design:** Ensures the grid looks consistent and functional across all devices.
 
-- Family: [Barlow Semi Condensed](https://fonts.google.com/specimen/Barlow+Semi+Condensed)
-- Weights: 500, 600 -->
+## Tech Stack
+
+- **React:** For component-based development.
+- **CSS/Scss**: For styling.
+
+## Deployment
+
+This project uses GitHub Pages for hosting.
+
+## Acknowledgements
+
+Thanks to **Frontend Mentor** for the challenge.
